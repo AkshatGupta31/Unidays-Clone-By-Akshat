@@ -459,17 +459,25 @@
   height: 500px;
   background-color: #002d50;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section9_text_box1 {
-  height: 500px;
-  width: 40%;
+  height: 350px;
+  width: 450px;
+  background-color: #e71506;
 }
-.section9_bigger_text b {
+.section9_bigger_text span {
+    font-size: 42px;
   color: #e6edf5;
 }
 .section9_bigger_text {
+    font-size: 36px;
   color: #e6edf5;
 }
 .section9_text_box2 {
-  width: 40%;
+    height: 350px;
+    width: 350px;
+  width: 350px;
+  background-color: #dfdf17;
 }
