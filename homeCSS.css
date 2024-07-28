@@ -127,7 +127,7 @@
 }
 
 .box1_items {
-  height: 64.4vh;
+  height: 100%;
   display: flex;
 }
 
@@ -153,6 +153,7 @@
 
 .section_2_items {
   height: 100%;
+  width: 100%;
   display: flex;
 }
 
@@ -513,7 +514,7 @@
   
 }
 .section9_bigger_text span {
-  font-weight: 400;
+  font-weight: 450;
 }
 .section9_bigger_text {
   line-height: 7.7vh;
@@ -618,7 +619,7 @@
 }
 .sec11_form_box2 input {
   width: 34vw;
-  height: 7vh;
+  height: 42px;
   border-radius: 30px;
   border: 1px #061955 solid;
   margin-top: 10px;
@@ -630,10 +631,10 @@
   color: rgb(199, 187, 187);
 }
 .sec11_form_box2 button {
-  width: 34vw;
-  height: 8.5vh;
-  font-size: 1.125rem;
-  font-weight: 700;
+  width: 130px;
+  height: 42px;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: #ffffff;
   background-color: #1137b4;
   border-radius: 30px;

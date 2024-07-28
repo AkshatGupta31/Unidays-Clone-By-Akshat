@@ -3,9 +3,9 @@
 
   #blue_button {
 
-    font-size: 18px;
-    font-weight: 700;
-
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
     width: 120px;
   }
 
@@ -32,12 +32,13 @@
     top: 10%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 80%;
     max-height: 0;
     overflow: hidden;
     background-color: white;
     visibility: hidden;
     transition: 0.25s ease;
+    /* border: #002d50 solid 2px; */
   }
 
   .navbar ul {
@@ -95,7 +96,7 @@
   }
   .section_2_items {
     display: flex;
-    height: 100%;
+    height: 800px;
     flex-direction: column;
   }
 
@@ -139,8 +140,8 @@
 
   /* ------------------------- SECTION -3 -------------------------------- */
   #section_3 {
- 
-    padding: 60px 20px 100px 20px;
+    height: 500px;
+    padding: 50px 27px ;
   }
   .section_3_items {
     display: flex;
@@ -167,20 +168,21 @@
   }
 
   .text_box3_sub_text {
-    font-size: 0.744rem;
+    font-size: 0.7rem;
     color: #002d50;
     line-height: 20px;
     margin: 0px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   .img_box3 {
     margin-top: 30px;
-
-    width: 300px;
+    height: 270px;
+    width: 260px;
+    margin-bottom: 30px;
   }
   .img_box3 img {
-    height: 280px;
-    width: 280px;
+    height: 100%;
+    width: 100%;
     margin: 0px;
   }
 
@@ -255,11 +257,11 @@
   }
 
   #section_4_box2 .section_4_box2_text_box1 .disc-btn {
-    font-size: 1.125rem;
-    font-weight: 700;
+    font-size: 1.r1em;
+    font-weight: 600;
     height: 100%;
     padding: 10px 0px;
-    width: 50%;
+    width: 160px;
     color: #ffffff;
     background-color: #1137b4;
     border-radius: 30px;
@@ -326,7 +328,7 @@
     font-weight: 700;
     height: 100%;
     padding: 10px 0px;
-    width: 50%;
+    width: 130px;
     color: #ffffff;
     background-color: #1137b4;
     border-radius: 30px;
@@ -393,7 +395,7 @@
     font-weight: 700;
     height: 100%;
     padding: 10px 0px;
-    width: 50%;
+    width: 130px;
     color: #ffffff;
     background-color: #1137b4;
     border-radius: 30px;
@@ -498,7 +500,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    margin-left: 24vw;
+    margin-left: 20vw;
     margin-bottom: 50px;
   }
   .sec8_imgrowbox {
@@ -512,6 +514,7 @@
   /* ---------------  section 9 css ------------------ */
   .section9_items {
     padding: 75px 55px 40px 55px;
+    padding: 40px 55px;
   }
   .section9_items {
     height: 60vh;
@@ -526,8 +529,8 @@
     margin-right: 0px;
   }
   .section9_bigger_text {
-
-    font-size: 1.5rem;
+    line-height: 40px;
+    font-size: 1.2rem;
  
   }
   .section9_text_box2 {
@@ -535,7 +538,7 @@
   }
   /* --------  section 10 slids area css -------- */
   #section10 {
-    height: 1700.2px;
+    height: 1500px;
   }
   
   .section10_images_box2 {
@@ -545,12 +548,28 @@
     justify-content: space-around;
     align-items: center;
   }
-  .sec10_imgrowbox h4 {
-    margin-top: 10px;
-  }
+
   .sec10_imgrowbox {
+    margin-bottom: 0px;
+    height: 100%;
     width: 100%;
   }
+  .sec10_imgrowbox h4 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+
+  .sec10_imgrowbox p {
+    margin: 15px 0px;
+    font-size:0.86rem;
+  }
+  .sec10_imgrowbox a {
+   
+    font-size: 1rem;
+  
+
+  }
+
 /* ------------- section 11 ----------- */
 #section11 {
   height: 100%;
@@ -568,6 +587,11 @@
     height: 100%;
     width: 100%;
     margin-bottom: 0px;
+  }
+
+  .section11_text_box1 h4 {
+    font-size: 1.5rem;
+    line-height: 35px;
   }
   .sec11_form_box2 {
     width: 100%;
